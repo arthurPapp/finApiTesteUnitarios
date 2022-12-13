@@ -36,6 +36,15 @@
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.3"
   },
-  "repository": "https://github.com/arthurPapp/finApiTesteUnitarios.git",
-  "author": "Arthur Papp <59942836+arthurPapp@users.noreply.github.com>"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurPapp/finApiTesteUnitarios.git"
+  },
+  "author": "Arthur Papp <59942836+arthurPapp@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/arthurPapp/finApiTesteUnitarios/issues"
+  },
+  "homepage": "https://github.com/arthurPapp/finApiTesteUnitarios#readme",
+  "keywords": [],
+  "description": ""
 }
