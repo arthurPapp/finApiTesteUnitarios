@@ -22,7 +22,7 @@ export class CreateStatementUseCase {
       throw new CreateStatementError.UserNotFound();
     }
 
-    if (type === 'withdraw') {
+    if (type === 'withdraw' || type === 'transfer_send') {
       const { balance } = await this.statementsRepository.getUserBalance({ user_id });
       if (balance < amount) {
         throw new CreateStatementError.InsufficientFunds()

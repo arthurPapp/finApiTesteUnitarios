@@ -9,4 +9,5 @@ export interface IStatementsRepository {
   getUserBalance: (data: IGetBalanceDTO) => Promise<
     { balance: number } | { balance: number, statement: Statement[] }
   >;
+  update: (id: string, sender_id: string) => Promise<void>;
 }
